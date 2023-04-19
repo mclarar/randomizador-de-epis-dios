@@ -1,0 +1,22 @@
+.resultContainer {
+  width: 20rem;
+  height: 10rem;
+  background-color: #402744;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.episodio,
+.temporada {
+  margin: auto;
+}

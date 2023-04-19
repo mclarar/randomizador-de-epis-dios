@@ -3,8 +3,9 @@ import styles from "./TvshowCard.module.css";
 export interface Serie {
   id: number;
   nome: string;
-  temporadas: number[];
+  temporadas: number[] | number;
   photo: string;
+  episodios: number[] | number;
 }
 
 interface tvshowCardProps {
