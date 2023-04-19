@@ -1,0 +1,15 @@
+.cardContainer {
+  width: 12rem;
+  height: 15rem;
+  margin: 0.5rem;
+  display: inline;
+  align-items: center;
+ 
+}
+
+.seriePoster {
+  width: 12rem;
+  height: 14rem;
+  cursor: pointer;
+  
+}
