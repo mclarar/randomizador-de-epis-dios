@@ -9,16 +9,20 @@ export function Home() {
   const [seriado, setSeriado] = useState<Serie>({
     id: 0,
     nome: "",
-    temporadas: [] ,
+    temporadas: [],
     photo: "",
-    episodios: []
+    episodios: [],
   });
 
-  const temporadas : number[]  = seriado.temporadas
-  const temporadaRandomizada : number = Math.floor(Math.random() * temporadas.length);
+  const temporadas: number[] = seriado.temporadas;
+  const temporadaRandomizada: number = Math.floor(
+    Math.random() * temporadas.length
+  );
 
-  const episodios : number[]  = seriado.temporadas
-  const episodioRandomizado : number = Math.floor(Math.random() * episodios.length);
+  const episodios: number[] = seriado.temporadas;
+  const episodioRandomizado: number = Math.floor(
+    Math.random() * episodios.length
+  );
 
   return (
     <div className={styles.containerApp}>
@@ -37,8 +41,12 @@ export function Home() {
           );
         })}
       </>
-      
-      <ResultCard tvshowName={seriado.nome} season={temporadaRandomizada} episode={episodioRandomizado}/>
+
+      <ResultCard
+        tvshowName={seriado.nome}
+        season={temporadaRandomizada}
+        episode={episodioRandomizado}
+      />
     </div>
   );
 }
