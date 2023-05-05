@@ -56,7 +56,7 @@ export function Home() {
 
       <ResultCard
         tvshowName={seriado.nome}
-        season={randomSeason(1,20)}
+        season={randomSeason(1,10)}
         episode={randomizarEpisodios(1,20)}
       />
     </div>
