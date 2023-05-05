@@ -3,8 +3,8 @@ import { series } from "../../data/series";
 
 interface ResultCardProps {
   tvshowName: string;
-  season: number;
-  episode: number;
+  season: any;
+  episode: any;
 }
 
 export function ResultCard({ episode, season, tvshowName }: ResultCardProps) {

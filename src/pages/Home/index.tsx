@@ -14,16 +14,28 @@ export function Home() {
     episodios: [],
   });
 
-  const temporadas: number[] = seriado.temporadas;
-  const temporadaRandomizada: number = Math.floor(
-    Math.random() * temporadas.length
-  );
+  // const temporadas: number[] = seriado.temporadas;
+  // const temporadaRandomizada: number = Math.floor(
+  //   Math.random() * temporadas.length
+  // );
 
-  const episodios: number[] = seriado.temporadas;
-  const episodioRandomizado: number = Math.floor(
-    Math.random() * episodios.length
-  );
+  // const episodios: number[] = seriado.temporadas;
+  // const episodioRandomizado: number = Math.floor(
+  //   Math.random() * episodios.length
+  // );
 
+
+  function randomizarEpisodios(min: number, max: number){
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  function randomSeason(min: number, max: number){
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
+  }
   return (
     <div className={styles.containerApp}>
       <h1 className={styles.title}>Escolha a série que deseja assitir</h1>
@@ -44,8 +56,8 @@ export function Home() {
 
       <ResultCard
         tvshowName={seriado.nome}
-        season={temporadaRandomizada}
-        episode={episodioRandomizado}
+        season={randomSeason(1,20)}
+        episode={randomizarEpisodios(1,20)}
       />
     </div>
   );
