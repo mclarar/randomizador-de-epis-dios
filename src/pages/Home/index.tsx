@@ -14,16 +14,6 @@ export function Home() {
     episodios: [],
   });
 
-  // const temporadas: number[] = seriado.temporadas;
-  // const temporadaRandomizada: number = Math.floor(
-  //   Math.random() * temporadas.length
-  // );
-
-  // const episodios: number[] = seriado.temporadas;
-  // const episodioRandomizado: number = Math.floor(
-  //   Math.random() * episodios.length
-  // );
-
 
   function randomizarEpisodios(min: number, max: number){
     min = Math.ceil(min);
