@@ -6,10 +6,13 @@
 
 .containerApp {
   height: 100vh;
-  padding: 10rem;
+  /* padding: 10rem; */
   background-color: #121214;
 }
-
+.selectIdiomas{
+  margin-left: 110rem;
+  padding: 0.5rem;
+}
 .cardContainer {
   width: 100%;
   height: 15rem;
@@ -24,4 +27,8 @@
   font-family: "Roboto", sans-serif;
   color: #f2f2f2;
   text-align: center;
+  margin-top: 9rem;
+  padding: 0.5rem;
 }
+
+

@@ -1,5 +1,6 @@
 import styles from "./ResultCard.module.css";
-import { series } from "../../data/series";
+
+import { i18next } from "../../translate/i18n";
 
 interface ResultCardProps {
   tvshowName: string;
@@ -12,8 +13,8 @@ export function ResultCard({ episode, season, tvshowName }: ResultCardProps) {
     <div className={styles.resultContainer}>
       <header className={styles.header}>{tvshowName}</header>
       <section className={styles.section}>
-        <div className={styles.episodio}>episodio {episode}</div>
-        <div className={styles.temporada}>temporada{season}</div>
+        <div className={styles.episodio}>{i18next.t('messages.episodio')}: {episode}</div>
+        <div className={styles.temporada}>{i18next.t('messages.temporada')}: {season}</div>
       </section>
     </div>
   );

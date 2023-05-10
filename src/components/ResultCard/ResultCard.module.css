@@ -1,14 +1,18 @@
 .resultContainer {
   width: 20rem;
   height: 10rem;
-  background-color: #402744;
+  /* background-color: #402744; */
   margin: auto;
   font-family: 'Roboto', sans-serif;
 }
 
-.header {
+/* .header {
   text-align: center;
-}
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: #f2f2f2;
+
+} */
 
 .section {
   display: flex;
@@ -17,6 +21,12 @@
 }
 
 .episodio,
-.temporada {
+.temporada,
+.header{
+  text-align: center;
   margin: auto;
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: #f2f2f2;
+  font-weight: bold;
 }
