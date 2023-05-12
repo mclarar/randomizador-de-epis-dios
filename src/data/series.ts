@@ -63,7 +63,7 @@ export const series = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     nome: "Fringe",
     temporadas: [1, 2, 3, 4, 5, 6, 7],
     photo: "fringe.jpg",

@@ -1,5 +1,5 @@
 export const messages = {
-    pt: {
+    fr: {
         translations:{
             titles:{
                 app: "Choisissez la série que vous souhaitez regarder"

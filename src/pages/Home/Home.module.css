@@ -10,7 +10,7 @@
   background-color: #121214;
 }
 .selectIdiomas{
-  margin-left: 110rem;
+  
   padding: 0.5rem;
 }
 .cardContainer {
@@ -19,6 +19,7 @@
   gap: 0.8rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 0.5rem;
   /* background-color: blueviolet; */
 }
@@ -31,4 +32,9 @@
   padding: 0.5rem;
 }
 
+@media screen and (min-width: 800px) {
+  .containerApp {
+    flex-wrap: wrap;
+  }
+}
 

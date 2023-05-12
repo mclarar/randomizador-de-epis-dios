@@ -45,8 +45,8 @@ export function Home() {
           <option>Escolha um idioma</option>
           <option value="pt-BR">PT</option>
           <option value="en-US">EN</option>
-          {/* <option value="es">ES</option> */}
-          {/* <option value="fr-FR">FR</option> */}
+          <option value="es">ES</option>
+          <option value="fr-FR">FR</option>
         </select>
         {/* <Bandeira imagem="/bandeiras/brasil.png" onCllick={}></Bandeira> */}
       </div>

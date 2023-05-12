@@ -6,7 +6,7 @@ import {messages as frenchMessages} from './fr'
 export const messages = {
     ...portugueseMessages,
     ...englishMessages,
-    // ...spanishMessages,
-    // ...frenchMessages
+    ...spanishMessages,
+    ...frenchMessages
 }
 
