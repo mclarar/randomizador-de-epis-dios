@@ -34,7 +34,7 @@
 
 @media screen and (min-width: 800px) {
   .containerApp {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
